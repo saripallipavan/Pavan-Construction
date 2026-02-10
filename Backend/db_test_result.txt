@@ -1,0 +1,4 @@
+Starting connection test...
+URI: mongodb+srv://pavan:Pavan123@cluster0.sniutqv.mongodb.net/pavan_constructions?appName=Cluster0
+MongoDB Connected Successfully!
+Connection State: 1

@@ -1,0 +1,25 @@
+.logo-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.logo-top {
+    color: #ffffff;
+    font-size: 1rem;
+    /* Adjusted for stacking */
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.logo-bottom {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #FF5100;
+    /* The orange underline */
+    padding-bottom: 2px;
+}
