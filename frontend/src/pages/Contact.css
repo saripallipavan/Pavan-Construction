@@ -1,0 +1,156 @@
+/* Contact Page Styles */
+
+.contact-hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    /* Contact/Communication */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+}
+
+.contact-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-hero-content h1 {
+    font-size: 4.5rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-container {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.contact-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid #FF5100;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: #FF5100;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    color: #333;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #FF5100;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #FF5100;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #e64a00;
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .contact-container {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-hero {
+        height: 50vh;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .contact-info h3 {
+        font-size: 1.5rem;
+    }
+}

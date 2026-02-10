@@ -1,0 +1,3 @@
+Projects: 3
+Services: 4
+Database populated successfully.
