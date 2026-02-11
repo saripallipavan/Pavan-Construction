@@ -15,9 +15,9 @@ const Projects = () => {
                 console.error(err);
                 if (projects.length === 0) {
                     setProjects([
-                        { _id: '1', title: 'Luxury Villa', location: 'Hyderabad', description: 'A 4BHK luxury villa with modern amenities.', images: ['https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'] },
-                        { _id: '2', title: 'Corporate Office', location: 'Bangalore', description: 'Review of the new tech park construction.', images: ['https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'] },
-                        { _id: '3', title: 'Apartment Complex', location: 'Vizag', description: 'High-rise residential complex.', images: ['https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'] }
+                        { _id: '1', title: 'Modern Villa', location: 'Hyderabad, India', description: 'A luxurious modern villa with state-of-the-art amenities.', images: ['https://images.unsplash.com/photo-1580587771525-78b9dba3b91d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'] },
+                        { _id: '2', title: 'Corporate Office Complex', location: 'Vishakapatnam, India', description: 'A 10-story office building with eco-friendly design.', images: ['https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'] },
+                        { _id: '3', title: 'Sunset Apartments', location: 'Vizag, India', description: 'Affordable luxury apartments with a sunset view.', images: ['https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'] }
                     ]);
                 }
             }

@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Testimonials from './pages/Testimonials';
 import AdminLogin from './pages/AdminLogin';
 import SocialSidebar from './components/SocialSidebar';
+import ServiceDetail from './pages/ServiceDetail';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
+                <Route path="/service/:id" element={<ServiceDetail />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/testimonials" element={<Testimonials />} />
                 <Route path="/contact" element={<Contact />} />
