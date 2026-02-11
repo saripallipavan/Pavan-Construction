@@ -60,8 +60,9 @@ const Navbar = () => {
                         <FaMapMarkerAlt className="location-icon" />
                         <select value={city} onChange={(e) => setCity(e.target.value)} className="city-select">
                             <option value="Hyderabad">Hyderabad</option>
-                            <option value="Bangalore">Bangalore</option>
-                            <option value="Vizag">Vizag</option>
+                            <option value="Vishakapatnam">Vishakapatnam</option>
+                            <option value="Vizianagaram">Vizianagaram</option>
+                            <option value="Nellimarla">Nellimarla</option>
                         </select>
                     </li>
                     <li className='nav-item'>
@@ -73,11 +74,11 @@ const Navbar = () => {
                         </NavLink>
                         {dropdown && (
                             <ul className="dropdown-menu">
-                                <li><Link to="/services#residential" className="dropdown-link" onClick={closeMobileMenu}>Residential Construction</Link></li>
-                                <li><Link to="/services#commercial" className="dropdown-link" onClick={closeMobileMenu}>Commercial Construction</Link></li>
-                                <li><Link to="/services#project-management" className="dropdown-link" onClick={closeMobileMenu}>Project Management</Link></li>
-                                <li><Link to="/services#architecture" className="dropdown-link" onClick={closeMobileMenu}>Architecture & Structure</Link></li>
-                                <li><Link to="/services#interiors" className="dropdown-link" onClick={closeMobileMenu}>Interiors & Smart Home</Link></li>
+                                <li><Link to="/service/residential" className="dropdown-link" onClick={closeMobileMenu}>Residential Construction</Link></li>
+                                <li><Link to="/service/commercial" className="dropdown-link" onClick={closeMobileMenu}>Commercial Construction</Link></li>
+                                <li><Link to="/service/project-management" className="dropdown-link" onClick={closeMobileMenu}>Project Management</Link></li>
+                                <li><Link to="/service/architecture" className="dropdown-link" onClick={closeMobileMenu}>Architecture & Structure</Link></li>
+                                <li><Link to="/service/interiors" className="dropdown-link" onClick={closeMobileMenu}>Interiors & Smart Home</Link></li>
                             </ul>
                         )}
                     </li>

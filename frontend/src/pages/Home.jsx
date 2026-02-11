@@ -11,7 +11,7 @@ import Contact from './Contact';
 
 const Home = () => {
     const [services, setServices] = useState([]);
-    const [projects, setProjects] = useState([]);
+
     const [consultationForm, setConsultationForm] = useState({
         name: '',
         mobile: '',
@@ -26,10 +26,7 @@ const Home = () => {
             { _id: '2', title: 'Renovations', description: 'Upgrading existing spaces with modern designs.' },
             { _id: '3', title: 'Commercial projects', description: 'Reliable construction for business needs.' }
         ]);
-        setProjects([
-            { _id: '1', title: 'Modern Villa', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' },
-            { _id: '2', title: 'Office Complex', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' }
-        ]);
+
     }, []);
 
     const handleFormChange = (e) => {
